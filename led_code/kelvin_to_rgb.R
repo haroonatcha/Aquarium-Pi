@@ -25,7 +25,7 @@ k_to_rgb <- function(k) {
     if(k <= 19) {
       blue <- 0
     } else {
-      blue <- 138.577312231 * log(temp - 10) - 305.0447927307
+      blue <- 138.577312231 * log(k - 10) - 305.0447927307
     }
     
     #if over 6600k
@@ -48,4 +48,4 @@ k_to_rgb <- function(k) {
   return(rgb)
 }
 
-4e4
+k_to_rgb(1500)

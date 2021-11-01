@@ -1,0 +1,25 @@
+---
+title: "README"
+author: "Haroon Atcha"
+date: "11/1/2021"
+output: html_document
+---
+# Aquar-pi-um
+
+Keeping aquariums is rewarding but it's a lot of work. Some of that work, like planting and trimming plants is fun. Some of it, like monitoring water conditions, is not. This project is an attempt to automate the not-fun parts of keeping an aquarium. [Reef-Pi](https://reef-pi.github.io/) is a big inspiration for this project. I use the general approach of this project here with a few adjustments.
+
+## General principles & goals
+
+The aquarium I'm working on is a small, desktop aquarium. This puts limitations on the 'off-the-shelf' hardware I can buy which has implications for what can and can't be done easily. For example, it's hard to find adjustable, affordable, high-quality lights for a tank of desktop size. A few general principles fall out of these limitations.
+
+- Do things affordably
+
+  Reef-Pi is a terrific project, but the hardware used can often be quite expensive and useful for salt-water aquariums. For example, Kessil lights are great in that you can control brightness and color temperature, but I *really* don't want to spend $300 on a single component. A strip of LED's in an IKEA lampshade will get the job done for much cheaper.
+  
+- Learn 1 new thing at a time
+
+  This project will be my first exposure to a lot of different things: electronic components, linux, internet-of-things devices, etc. Trying to learn a zillion new things at once often feels like a recipe for failure. As such, the goal is to learn 1 new thing at a time. That's why you'll find some code written in R, a language I'm pretty comfortable with. Once I've gotten things to a steady state, I'll come back and re-write it all in python. The goal is first to learn, then to optimize.
+
+- Appearance matters, at least a little
+
+  This aquarium is going to be sitting on my desk for the foreseeable future so ideally, it'll be pleasant to look at. That means choosing components that go with the theme (black and brushed metal) and avoiding exposed circuits. I don't want to stare at a nest of wires all day long!
